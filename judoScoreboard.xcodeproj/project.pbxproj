@@ -13,6 +13,9 @@
 		9FAF105C2AC2C9BA0000C35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF105A2AC2C9BA0000C35E /* Main.storyboard */; };
 		9FAF105E2AC2C9BC0000C35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF105D2AC2C9BC0000C35E /* Assets.xcassets */; };
 		9FAF10612AC2C9BC0000C35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF105F2AC2C9BC0000C35E /* LaunchScreen.storyboard */; };
+		9FAF10692AC2DECE0000C35E /* TypoDigitDemo-VG9lV.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF10682AC2DECE0000C35E /* TypoDigitDemo-VG9lV.ttf */; };
+		9FAF106B2AC30FE50000C35E /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF106A2AC30FE40000C35E /* bell.mp3 */; };
+		9FAF106D2AC310450000C35E /* beep-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FAF106C2AC310450000C35E /* beep-sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9FAF105D2AC2C9BC0000C35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FAF10602AC2C9BC0000C35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FAF10622AC2C9BC0000C35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FAF10682AC2DECE0000C35E /* TypoDigitDemo-VG9lV.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TypoDigitDemo-VG9lV.ttf"; sourceTree = "<group>"; };
+		9FAF106A2AC30FE40000C35E /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		9FAF106C2AC310450000C35E /* beep-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-sound.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				9FAF105D2AC2C9BC0000C35E /* Assets.xcassets */,
 				9FAF105F2AC2C9BC0000C35E /* LaunchScreen.storyboard */,
 				9FAF10622AC2C9BC0000C35E /* Info.plist */,
+				9FAF10682AC2DECE0000C35E /* TypoDigitDemo-VG9lV.ttf */,
+				9FAF106A2AC30FE40000C35E /* bell.mp3 */,
+				9FAF106C2AC310450000C35E /* beep-sound.mp3 */,
 			);
 			path = judoScoreboard;
 			sourceTree = "<group>";
@@ -127,7 +136,10 @@
 			files = (
 				9FAF10612AC2C9BC0000C35E /* LaunchScreen.storyboard in Resources */,
 				9FAF105E2AC2C9BC0000C35E /* Assets.xcassets in Resources */,
+				9FAF106B2AC30FE50000C35E /* bell.mp3 in Resources */,
+				9FAF10692AC2DECE0000C35E /* TypoDigitDemo-VG9lV.ttf in Resources */,
 				9FAF105C2AC2C9BA0000C35E /* Main.storyboard in Resources */,
+				9FAF106D2AC310450000C35E /* beep-sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +312,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +341,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
